@@ -26,7 +26,3 @@ def test_open_article_from_results():
 
     with step('Open article'):
         results.first.click()
-    #
-    # with step('Verify open article'):
-    #     results = browser.all((AppiumBy.ID, 'org.wikipedia.alpha:id/pcs-edit-section-title-description'))
-    #     results.first.should(have.text('Hell'))
